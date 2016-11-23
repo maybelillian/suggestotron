@@ -1,3 +1,3 @@
-class Vote < ApplicationRecord::Base
+class Vote < ActiveRecord::Base
 	belongs_to :topic
 end
